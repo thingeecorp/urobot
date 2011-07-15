@@ -1,1 +1,2 @@
-require File.join(File.dirname(__FILE__), %w(rails init))
+require 'urobot'
+ActionController::Base.send(:include, Jaap3::UrobotHelper)
